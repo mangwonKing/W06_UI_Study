@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 16b54aab89704c54e9dbb678e7daeb8b, type: 3}
-  m_Name: ITEM
+  m_Name: Axe
   m_EditorClassIdentifier: 
   number: 0
-  itemName: Sword
-  image: {fileID: 21300000, guid: 5fd50594014b70e48bd6993443d46b32, type: 3}
+  itemName: Axe
+  image: {fileID: 21300000, guid: 172774604c1bee84185a69041576525b, type: 3}

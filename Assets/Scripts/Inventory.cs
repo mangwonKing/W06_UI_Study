@@ -7,7 +7,7 @@ public class Inventory : MonoBehaviour
     public Slots[] slots;
     public Transform slotParent;
 
-    public Item testItem;
+    public Item[] testItem;
     private void Start()
     {
         slots = slotParent.GetComponentsInChildren<Slots>();
@@ -17,7 +17,8 @@ public class Inventory : MonoBehaviour
     {
         if(Input.GetKeyDown(KeyCode.F))
         {
-            SetItem(testItem);
+            int itemIdx = Random.Range(0, testItem.Length);
+            SetItem(testItem[itemIdx]);
         }
     }
     public void SetItem(Item newItem)
